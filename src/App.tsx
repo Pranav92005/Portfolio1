@@ -1,5 +1,6 @@
 
 import './App.css'
+import Hero from './ccomponents/hero/Hero'
 import Navbar from './ccomponents/Navbar'
 
 function App() {
@@ -7,15 +8,16 @@ function App() {
 
   return (
     <>
-    <section>
+    <section id='Homepage'>
       <Navbar />
+      <Hero />
     </section>
-    <section>Parallax</section>
+    <section id='About'>Parallax</section>
     <section>Services</section>
-    <section>Parallax</section>
-    <section>Portfolio1</section>
+    <section id='Projects'>Parallax</section>
+    <section id='Links'>Portfolio1</section>
     <section>Portfolio2</section>
-    <section>Contact</section>
+    <section id="Contact">Contact</section>
      
     </>
   )

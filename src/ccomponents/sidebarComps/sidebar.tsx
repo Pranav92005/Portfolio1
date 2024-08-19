@@ -1,13 +1,13 @@
 import Links from './Links'
 import { useState } from 'react';
 import Togglebutton from './Togglebutton'
-import { motion } from 'framer-motion';
+import { delay, motion } from 'framer-motion';
 
 export default function Sidebar() {
   const[isOpen,setIsOpen]=useState(false);
   const variants={
     open:{
-
+      
       opacity:1,
       transition:{
         
@@ -17,8 +17,10 @@ export default function Sidebar() {
     },
     closed:{
       opacity:0,
+
       transition:{
-delay:0.5,
+        delay:0.2,
+
 type:"spring",
 stiffness:400,
 damping:40
