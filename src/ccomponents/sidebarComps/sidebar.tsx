@@ -1,7 +1,7 @@
 import Links from './Links'
 import { useState } from 'react';
 import Togglebutton from './Togglebutton'
-import { delay, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 
 export default function Sidebar() {
   const[isOpen,setIsOpen]=useState(false);
@@ -30,9 +30,9 @@ damping:40
   }
 
   return (
-    <motion.div animate={isOpen?"open":"closed"}  className="flex flex-col items-center justify-center bg-white text-black " >
+    <motion.div animate={isOpen?"open":"closed"}   className="flex flex-col items-center justify-center  bg-white text-black " >
 
-      < motion.div className="fixed top-0 left-0 bottom-0 w-[400px] bg-white" variants={variants}>
+      < motion.div className="fixed top-0 left-0 bottom-0 w-[400px] bg-white" variants={variants} initial={{opacity:0}}>
         <Links/>
         
       </motion.div>
