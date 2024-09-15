@@ -21,7 +21,7 @@ const itemvaianst={
 }
 
 
-const items=["Homepage","About","Projects","Contact","Links"]
+const items=["Homepage","Skills","Projects","Contact","Links"]
 
 export default function Links() {
   return (

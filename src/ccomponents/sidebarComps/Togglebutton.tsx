@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 export default function Togglebutton({open}:{open:React.Dispatch<React.SetStateAction<boolean>>}) {
   return (
     < div>
-    <button className="w-[50px] h-[50px] rounded-full fixed bg-white border-none top-[25px] left-[25px] cursor-pointer" onClick={() => open(prev => !prev)}>
+    <button className="md:w-[50px] md:h-[50px] rounded-full fixed bg-white border-none top-[25px] left-[25px] cursor-pointer" onClick={() => open(prev => !prev)}>
     <motion.svg variants={{
       open:{opacity:0},
       closed:{opacity:1}
