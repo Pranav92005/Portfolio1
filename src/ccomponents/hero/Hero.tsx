@@ -23,17 +23,17 @@ const textVariants={
   }
 }
 
-const slidevariants={
-  initial:{
-    x:0,
-  },
-  animate:{
-    x:"70%",
-    transition:{
-      duration:5,
-      repeat:Infinity
-  }
-}}
+// const slidevariants={
+//   initial:{
+//     x:0,
+//   },
+//   animate:{
+//     x:"70%",
+//     transition:{
+//       duration:5,
+//       repeat:Infinity
+//   }
+// }}
 
 export default function Hero() {
   return (
