@@ -4,6 +4,7 @@ import Hero from './ccomponents/hero/Hero'
 import Navbar from './ccomponents/Navbar'
 import Projects from './ccomponents/Projects'
 import Skills from './ccomponents/skills'
+import Contact from './ccomponents/contact'
 import {useState} from 'react'
 
 
@@ -35,8 +36,9 @@ function App() {
     <section id='Skills'>
       <Skills/>
     </section>
-    {/* <section>Services</section> */}
+   
     <section id='Projects'><Projects/></section>
+      <section id='Contact'><Contact/></section> 
     
     
     </div>

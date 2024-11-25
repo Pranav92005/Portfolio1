@@ -16,7 +16,8 @@ export default function Sidebar() {
 
     },
     closed:{
-      opacity:0,
+      
+      display:"none",
 
       transition:{
         delay:0.2,

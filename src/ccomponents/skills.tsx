@@ -6,7 +6,7 @@ export default function Skills() {
     <div >
       
 
-        <div className="max-w-[1366px] m-auto  p-10">
+        <div className="max-w-[1366px]  m-auto  p-10">
             <h1 className="text-3xl font-bold text-purple-700">Skills</h1>
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-5">
             {skills.map((skill, index) => (
